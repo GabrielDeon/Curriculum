@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.socialMediaButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.socialMediaButton img {
+    transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.socialMediaButton:hover img {
+    filter: brightness(0) saturate(100%) invert(34%) sepia(100%) saturate(500%) hue-rotate(110deg);
+}
+
+.bottom-green{
+    border-bottom: 6px solid var(--color-green);
+}
+
+.presentationParagraph{
+    text-align: left;
+    width: 25rem;
+    max-width: 100%;
+}
+
+.contactMeDiv{
+    width: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.defaultButton{
+    border: none;
+    font-family: var(--font-sp-bold-medium);
+    background-color: transparent;
+    color: var(--color-white);
+    font-size: 20px;
+    transition: color 0.3s ease;
+    padding: 1rem 0px;
+    border-bottom: 3px solid var(--color-green);
+}
+
+.defaultButton:hover{    
+    color: var(--color-green);    
+}
+
+.tecnologies-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
