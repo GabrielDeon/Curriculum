@@ -47,7 +47,13 @@ header, main, footer{
 }
 
 footer{
+    margin-top: 10rem;    
     background-color: var(--color-gray);
+}
+
+main, footer{
+    position: relative;
+    overflow: hidden;
 }
 
 

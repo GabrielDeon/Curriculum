@@ -3,29 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/fonts.css"/>
-    <link rel="stylesheet" href="styles/root.css"/>
-    <link rel="stylesheet" href="styles/layout.css"/>
-    <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/root.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Gabriel Barp Deon</title>
   </head>
   <body>
     <header>
       <div>
-        <h3>John Snow</h3>
+        <h3>Gabriel B. Deon</h3>
       </div>
       <div class="headerButtons">
-        <button class="socialMediaButton"><image src="./assets/svg/icon-github.svg"></image></button>        
-        <button class="socialMediaButton"><image src="./assets/svg/icon-linkedin.svg"></image></button>
-        <button class="socialMediaButton"><image src="./assets/svg/icon-twitter.svg"></image></button>
+        <button class="socialMediaButton">
+          <image src="./assets/svg/icon-github.svg"></image>
+        </button>
+        <button class="socialMediaButton">
+          <image src="./assets/svg/icon-linkedin.svg"></image>
+        </button>
+        <button class="socialMediaButton">
+          <image src="./assets/svg/icon-twitter.svg"></image>
+        </button>
       </div>
     </header>
     <main>
+      <image class="circle1" src="./assets/svg/pattern-rings.svg"></image>
       <h1>Nice to meet you!</h1>
-      <h1>I'm <span class="bottom-green">John Snow.</span></h1>
-      
+      <h1>I'm <span class="bottom-green">Gabriel B. Deon.</span></h1>
+
       <p class="presentationParagraph">
-        Based in the UK, I’m a front-end developer passionate about building
+        Based in the BR, I’m a full-stack developer passionate about building
         accessible web apps that users love.
       </p>
 
@@ -36,122 +43,127 @@
         </div>
       </div>
       <div class="tecnologies-container">
+        <image class="circle2" src="./assets/svg/pattern-rings.svg"></image>
         <div class="Tecnologiesline">
           <div>
             <h2>HTML</h2>
-            <p>4 years of experience</p>
+            <p>3 years of experience</p>
           </div>
           <div>
-            <h2>Acessability</h2>
-            <p>4 years of experience</p>
-          </div>          
+            <h2>NodeJS</h2>
+            <p>2 years of experience</p>
+          </div>
         </div>
         <div class="Tecnologiesline">
           <div>
             <h2>CSS</h2>
-            <p>4 years of experience</p>
+            <p>3 years of experience</p>
           </div>
           <div>
             <h2>React</h2>
-            <p>4 years of experience</p>
-          </div>          
+            <p>2 years of experience</p>
+          </div>
         </div>
         <div class="Tecnologiesline">
           <div>
             <h2>JavaScript</h2>
-            <p>4 years of experience</p>
+            <p>3 years of experience</p>
           </div>
           <div>
-            <h2>Saas</h2>
-            <p>4 years of experience</p>
+            <h2>Typescript</h2>
+            <p>1 year of experience</p>
           </div>
-        </div>        
+        </div>
       </div>
       <div>
-        <div>
+        <div class="projects-title">
           <h1>Projects</h1>
-          <button>CONTACT ME</button>
+          <button class="defaultButton">CONTACT ME</button>
         </div>
-
         <div class="project-container">
-          <div class="column column1">
-            <div class="projectExample">
-              <div class="projectImage"></div>
-              <h4>Project #1</h4>
-              <div>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-              </div>
-            </div>
-            <div class="projectExample">
-              <div class="projectImage"></div>
-              <h4>Project #1</h4>
-              <div>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-              </div>
-            </div>
-            <div class="projectExample">
-              <div class="projectImage"></div>
-              <h4>Project #1</h4>
-              <div>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-              </div>
+          <div class="projectExample">            
+            <img src="./assets/images/project1.png" class="projectImage" alt="Project 1">
+            <h3 class="projectName">eCommerce Structure</h3>
+            <div class="projectTechnologies">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>React</p>
+              <p>NestJS</p>
+              <p>NodeJS</p>
+              <p>Typescript</p>
+              <p>PostgreSQL</p>
             </div>
           </div>
-          <div class="column column2">
-            <div class="projectExample">
-              <div class="projectImage"></div>
-              <h4>Project #1</h4>
-              <div>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-              </div>
-            </div>
-            <div class="projectExample">
-              <div class="projectImage"></div>
-              <h4>Project #1</h4>
-              <div>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-              </div>
-            </div>
-            <div class="projectExample">
-              <div class="projectImage"></div>
-              <h4>Project #1</h4>
-              <div>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-              </div>
+          <div class="projectExample">
+            <img src="./assets/images/project2.png" class="projectImage"></img>
+            <h3 class="projectName">Pixel-Ops</h3>
+            <div class="projectTechnologies">
+              <p>React</p>
+              <p>Tailwind</p>
+              <p>Shadcn</p>
             </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <div>
-        <div></div>
-        <form>
-          <label>Name</label>
-          <input type="text" />
-          <label>Email</label>
-          <input type="text" />
-          <label>Text</label>
-          <input type="text" />
-          <button>SEND MESSAGE</button>
+      <image class="circle3" src="./assets/svg/pattern-rings.svg"></image>
+      <div class="footerContent">
+        <div class="footerLeftSide">
+          <h1>Contact</h1>
+          <p class="presentationParagraph">
+            I would love to hear about your project and how I could help. Please
+            fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+        </div>
+        <form id="contactmeForm" class="footerRightSide">
+          <input
+            class="inputss"
+            type="text"
+            id="name"
+            placeholder="NAME"
+            required
+          />
+          <div>
+            <input
+              class="inputss"
+              type="text"
+              id="email"
+              placeholder="EMAIL"
+              required
+            />
+            <span id="emailError" class="errorEmail">
+              Sorry, invalid format here.
+            </span>
+          </div>
+          <textarea
+            class="inputssText"
+            placeholder="MESSAGE"
+            required
+          ></textarea>
+          <div class="sendmessagebutton">
+            <button class="defaultButton" type="submit">SEND MESSAGE</button>
+          </div>
         </form>
       </div>
-      <div>
+      <div class="footerFinalLine">
         <div>
-          <h3>John Snow</h3>
+          <h3>Gabriel B. Deon</h3>
         </div>
-        <div>
-          <image src="./assets/svg/icon-github.svg"></image>
-          <image src="./assets/svg/icon-linkedin.svg"></image>
-          <image src="./assets/svg/icon-twitter.svg"></image>
+        <div class="headerButtons">
+          <button class="socialMediaButton">
+            <image src="./assets/svg/icon-github.svg"></image>
+          </button>
+          <button class="socialMediaButton">
+            <image src="./assets/svg/icon-linkedin.svg"></image>
+          </button>
+          <button class="socialMediaButton">
+            <image src="./assets/svg/icon-twitter.svg"></image>
+          </button>
         </div>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
