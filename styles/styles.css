@@ -194,7 +194,7 @@ header {
     position: absolute;
     left: -10%;
     /* Move the SVG to the left */
-    top: 3%;
+    top: 5%;
     /* Vertically center the SVG relative to the container */
     transform: translateY(-50%);
     /* Centering adjustment */
@@ -230,4 +230,12 @@ header {
 
 main {
     margin-top: 8rem;
+}
+
+.perfilImage{
+    width: 129px;
+    height: 129px;
+    border-radius: 50%;
+    border-color: white;
+
 }
